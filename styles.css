@@ -1,0 +1,91 @@
+html{
+    font-size: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav, main{
+    padding: 0 48px;
+    margin-top: 32px;
+}
+
+h1{
+    background-color: green;
+    padding: 40px;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    margin:32px 20px 0 0;
+}
+
+.img-section{
+    margin-bottom: 48px;
+}
+
+img{
+    display: inline-block;
+    height: 500px;
+    width: 800px;
+    border-radius: 12px;
+}
+
+p{
+    text-align: center;
+    width: fit-content;
+
+}
+
+section{
+    margin: 60px 0;
+    max-width: 800px;
+}
+
+h2{
+    margin: 24px 0;
+}
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px 32px;    
+}
+
+label{
+    display: inline-block;
+    margin: 24px 16px 24px 0;
+}
+
+input, textarea{
+    padding: 16px;
+    border: solid black 1.5px;
+    border-radius: 4px;
+    width: 320px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width:auto ;
+}
+
+.gender label{
+   padding-left: 16px;
+}
+
+input[type="submit"]{
+    width: 240px;
+    margin-top: 40px;
+    padding: 16px 36px;
+}
+
+textarea{
+    display: inline-block;
+    width: 480px;
+}

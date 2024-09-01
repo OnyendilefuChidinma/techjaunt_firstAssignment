@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My First Assignment (TechJaunt)</title>
+</head>
+<body>
+    <header>
+        <h1> My First Webpage</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <l1><a href="#web_contents">Webpage Contents</a></l1>
+            <l1><a href="#Information_table">Information Table</a></l1>
+            <l1><a href="#contact_form">Contat Form</a></l1>
+        </ul>
+    </nav>
+    
+    <main>
+        <section>
+            <div class="img-section"><img src="./images/sunset_img.jpg" alt="Picture of Sunset"></div>
+
+            <p>This is a sample paragraph describing the content of the webpage. it explains the purpose of the page and provides some basic information about what the users can expect to find.</p>
+        </section>
+
+        <div style="margin-top: 24px;">
+            <a href="./techjaunt.html">
+                Visit TechJaunt
+            </a>
+        </div>
+
+        <section id="web_contents">
+            <h2>Webpage Contents</h2>
+
+            <ul>
+                <li>Introduction</li>
+                <li>Table of Information</li>
+                <li>Contact Form</li>
+            </ul>
+        </section>
+        <section id="Information_table">
+            <h2>Information Table</h2>
+            <table border="1">
+                <tr>
+                    <th>item</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Pens</td>
+                    <td>Blue Ink Pens</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Notebooks</td>
+                    <td>Spiral-bound Notebooks</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Markers</td>
+                    <td>Permanent Markers</td>
+                    <td>2</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact_form">
+            <h2>Contact Form</h2>
+            <form action="#">
+                <label for="fullname">Name:</label>
+                <input type="text" name="fullname" id="fullname">
+                
+                <br>
+
+                <label for="user_email">Email:</label>
+                <input type="email" name="user_email" id="user_email">
+
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" name="user_password" id="user_password">
+
+                <br>
+
+                <label for="gender">Gender:</label>
+                <span class="gender">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+
+                </span>
+
+                <br>
+
+                <label for="subcribe">Subcribe:</label>
+
+                <input type="checkbox" name="subcribe" id="subcribe">
+                <span style="margin-left: 4px;">Yes, I want to subcribe.</span>
+
+                <br>
+
+                <label for="num_items">Number Of Items</label>
+
+                <input type="number" name="num_items" id="num_items">
+
+                <br>
+
+                <label for="trans_date">Date</label>
+
+                <input type="date" name="trans_date" id="trans_date">
+
+                <br>
+
+                <label for="comment_message">Message</label>
+                <br>
+                <textarea name="comment_message" id="comment_message" cols="30" rows="10" placeholder="write your comment here..."></textarea>
+
+                <br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
